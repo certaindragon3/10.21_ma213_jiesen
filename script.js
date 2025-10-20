@@ -192,7 +192,7 @@ function initializeImageEffects() {
 // SMOOTH SCROLL
 // ============================
 
-// Smooth scroll for anchor links (if any are added)
+// Smooth scroll for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -239,6 +239,6 @@ function updateImage(imageNumber, newUrl) {
     }
 }
 
-// Export functions for console access (useful for quick testing)
+// Export functions for console access
 window.updateAnswer = updateAnswer;
 window.updateImage = updateImage;

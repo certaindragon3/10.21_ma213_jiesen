@@ -63,6 +63,11 @@ body {
     overflow: hidden;
 }
 
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
 .hero::before {
     content: '';
     position: absolute;
